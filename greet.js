@@ -1,4 +1,2 @@
-const greet = () => {
-  return "Hello World!";
-}
-//commit done !!
+const helloWorld = (name = "World") => `Hello ${name}!`;
+
